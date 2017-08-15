@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: test-client
+#  profiles:
+#    active: karim
+  cloud:
+    config:
+      uri: http://localhost:8001
+server:
+  port: 8002
+management:
+  security:
+    enabled: false
